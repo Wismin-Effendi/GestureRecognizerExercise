@@ -40,6 +40,8 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setNewImage(for: "car")
+        setGestureText(for: nil)
     }
 
     
